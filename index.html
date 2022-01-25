@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@200;300;400&display=swap" rel="stylesheet">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   
+    <div id="container">
+        <section id="description">
+            <h1>Calculete Degrees</h1>
+            <p>The project "Calculate Degrees",  is a project that calculates degrees celsius to fahrenheit or from fahrenheit to celsius.<br>This is a project with the intention of training my skills in Html, css, javascript. </p>
+        </section>
+        <section>
+            <div id="degreesinput" class="degrees">
+                <input id="degreesInput" type="text" value="" placeholder="0"/>
+                <select id="opstionsDegreesInput" name="select">
+                    <option value="Celsius">Celsius</option>
+                    <option value="fahrenheit" >Fahrenheit</option>
+                  </select>
+            </div>
+                <div id="equal">=</div>
+            <div id="Result" class="degrees" >
+                <input id="degreesResult" type="text" value="" disabled placeholder="0">
+                <select id="opstionsDegreesResult" name="select">       
+                    <option value="fahrenheit" >Fahrenheit</option>
+                    <option value="Celsius">Celsius</option>
+                  </select>
+                  
+            </div>
+           
+        </section>
+        <button id="clear" >Clear</button>
+    </div>
+
+
+    <script src="celsiusFahrenheit.js"></script>
+</body>
+</html>
