@@ -14,7 +14,7 @@ This project was developed with the following technologies:
 
 - Javascript
 - Html
-- Csss
+- Css
 
 ## 💻 Project 
 
